@@ -13,7 +13,7 @@
         <h3>GENERAL BUS PASS APPLICATION</h3>
     </center>
     </fieldset>
-    <form method="get" action="./tsrtcresponse.html">
+    <form method="get" action="./tsrtcresponse.html" enctype="multipart/form-data">
     <fieldset>
         <legend><h2>Application details</h2></legend>
     
@@ -21,6 +21,10 @@
             <input type="text" id="Name" name="name" required minlength="8" maxlength="20"><br>
             <label for="fathers/guardian name"><b>Fathers/guardian name*:</b></label>
             <input type="text" id="fathers/guardian name" name="fathers/guardian name" required><br>
+            <label for="password" > <b>Password*:</b></label>
+            <input type="password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^]).{8,16}"
+            title="only small and caps , lenght 8 to 16" required>
+        <br>
             <label for="Date of birth"><b>Date of birth*:</b></label>
             <input type="date" id="Date of birth" name="Date of birth" required><br>
             <label for="gender:"><b>Gender*:</b></label>
@@ -35,7 +39,7 @@
             <label for="whatsapp"><b>Whatsapp*:</b></label>
             <input type="text" id="whatsapp" name="whatsapp" required><br>
             <label for="E-mail id"> <b>E-mail id*:</b></label>
-            <input type="text number" id="E-mail id" name="E-mail id"><br>
+            <input type="text number" id="E-mail id" name="E-mail id" pattern="[a-z0-9_.]+@gmail\.com" required><br>
             <label for="photo"><b>Photo*:</b></label>
             <input type="file" id="photo" name="Photo" required><br>
             </fieldset>
