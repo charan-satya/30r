@@ -1,0 +1,71 @@
+.outer-box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    position:relative;
+}
+
+.inner-box{
+    width: 40px;
+    height: 40px;
+    border: 2px solid red;
+    position: absolute;
+    top: 78px;
+    left: 78px;
+}
+.icon{
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    position: relative;
+}
+.span{
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    position:absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.cha{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    position: relative;
+}
+.button{
+    color: chartreuse;
+    position: absolute;
+    top: 70px;
+    left: 70px;
+}
+.anu{
+    width: 200px;
+    height: 200px;
+    border: 10px solid blueviolet;
+    position: relative;
+}
+.overlay{
+    width: 40px;
+    height: 40px;
+    border: 10px solid violet;
+    position: absolute;
+    top: 0px;
+    left: 150px;
+}
+
+.image-container{
+    width: 300px;
+    height: 200px;
+    border: 10px solid violet;
+    position: relative;
+}
+.task{
+    color: aliceblue;
+    width: 80px;
+    height: 40px;
+    border: 3px solid white;
+    position: absolute;
+    top: 0px;
+    left: 110px;
+}
