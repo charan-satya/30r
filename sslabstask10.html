@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form tag</title>
+</head>
+<body style="background-color: yellow;">
+    <center><h1><u>Student Registration form</u></h1></center>
+    <form action="" method="post">
+        <table>
+            <tr>
+                <td><label>First Name: <span style="color:red;">*</span></label></td>
+                <td><input type="text" name="fname" placeholder="Enter First Name"required minlength="6" maxlength="12" autofocus autocomplete="off"></td>
+                </tr>
+                <tr>
+                    <td><label>Last Name: <span style="color:red;">*</span></label></td>
+                    <td><input type="text" name="fname" placeholder="Enter Last Name"required minlength="6" maxlength="12" autofocus autocomplete="off"></td>
+
+                </tr>
+                    <tr>
+                        <td><label>Email: <span style="color: red;">*</span></label></td>
+                        <td><input type="email" name="mail"></td>
+                        
+                    </tr>
+                    <tr>
+                        <td><label>Mobile Number: <span style="color: red;">*</span></label></td>
+                        <td><input type="tel" name="Number" minlength="10" maxlength="10"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label>How Many Pieces Of Friuts do you eat daily:<span style="color: red;">*</span></label></td>
+                            <td>
+                                <input type="radio" name="gender">0<br>
+                                <input type="radio" name="gender">1<br>
+                                <input type="radio" name="gender">2<br>
+                                <input type="radio" name="gender">3<br>
+                            </td>
+                        <tr>
+                            <td><label>My Favorite Fruit:</label></td>
+			<td>
+				<select multiple>
+					<option value="">---select--- </option>
+					<option value="html">Apple</option>
+					<option value="css">Banana</option>
+					<option value="javascript" selected>Orange</option>
+					<option value="jquery">Berry</option>
+					<option value="bootstrap">plum</option>
+				</select>
+			</td>
+                        </tr>
+                        <tr>
+                            <td><label>Hobbies<span style="color: red;">*</span></label></td>
+                            <td> <input type="checkbox" name="number"></td>
+                            
+
+                            <tr>
+                                <center>
+                                <td><input type="submit" value="Submit"></td>
+                                </center>
+                            </tr>
+                        
+</body>
+</html>
