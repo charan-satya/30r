@@ -1,0 +1,40 @@
+body
+{
+	background:linear-gradient(to right, red, white, green);
+}
+.login
+{
+	width:400px;
+	background-color:white;
+	color:black;
+	font-size:20px;
+    padding:20px 40px;
+	margin:150px auto;
+	border-radius:20px;
+	font-size:20px;
+	opacity:0.7;
+}
+.login h2
+{
+	text-align:center;
+	
+}
+.login form input
+{
+	width:100%;
+	margin:5px;
+    border:none;
+	padding:20px 0px;
+	border-bottom:1px solid black;
+}
+.login p
+{
+	text-align:center;
+}
+.login form input[type="submit"]
+{
+	background:skyblue;
+	color:white;
+	border-radius:30px;
+	border:None;
+}
