@@ -1,0 +1,126 @@
+*
+{
+padding:opx;
+margin:opx;
+border:2px;
+}
+body
+{
+font-size:arial;
+font-family:20px;
+margin:10px;
+}
+.heading
+{
+	background-color:gray;
+	line-height:80px;
+}
+.heading .h1
+{
+	font-size:15px;
+	width:40%;
+	float:left;
+	text-align:center;
+	margin-left:150px;
+}
+
+.search
+{
+
+float:right;
+margin-right:50px;
+margin-top:20px;
+
+}
+.heading .search input
+{
+padding:10px;
+border:none;
+border-radius:30px;
+}
+.heading .search img
+{
+position:relative;
+right:45px;
+top:12px;
+} 
+.main
+{
+text-align:justify;
+width:90%;
+margin:20px auto;
+}
+.main .para0
+{
+margin-bottom:5px;
+padding-left:7px;
+}
+.para1,.para2
+{
+padding:7px auto;
+	text-align:justify;
+	margin:5px 0px;
+	width:49%;
+	height:450px;
+}
+.para1
+{
+background-color:#2c3e50;
+float:left;
+line-height:1.5;
+margin-left:5px;
+
+}
+
+.para2
+{
+float:right;
+height:450px;
+}
+.para3
+{
+
+	padding:20px;
+	text-align:justify;
+	line-height:1.5;
+	margin:5px 0px;
+	background-color:#bdc3c7;
+	}
+	
+.para4,.para5,.para6
+{
+padding:20px;
+text-align:justify;
+line-height:1.5;
+margin:5px 0px;	
+width:26%;
+float:left;
+ }
+.para5
+{
+ margin-bottom:-5px;
+ padding-left:10px;
+ margin-left:50px;
+ }
+
+.para4
+{
+background-color:#bdc3c7;
+}
+
+.para6
+{
+float:right;
+background-color:#bdc3c7;
+} 	
+.clear
+{
+clear:both;
+}
+.footer
+{
+border:3px solid;
+text-align:right;
+padding-right:5%;
+background-color:gray;
+}
