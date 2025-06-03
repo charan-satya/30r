@@ -6,8 +6,7 @@
 }
 body{
     height: 100vh;
-    background-image: url(https://media.gettyimages.com/id/1404501379/video/pair-of-hands-typing-on-a-laptop-and-flying-social-media-icons.jpg?s=640x640&k=20&c=IcCa1e46--hm7WZxXLGScrvyW_HxlY6koTXkRDnbdkE=);
-
+    background-color: chocolate;
     background-size: 100%;
 }
 .container{
@@ -27,7 +26,7 @@ body{
 .form{
     position: relative;
     width: 350px;
-    height: 370px;
+    height: 550px;
     background-color: white;
     box-shadow: rgba(100,100,111,0.2)0 7px 29px 0px;
     border-radius: 8px;
@@ -64,6 +63,7 @@ a{
 }
 button{
     padding: 8px 20px;
+    margin-top: 10px;
     border: none;
     outline: none;
     width: 100%;
@@ -71,14 +71,6 @@ button{
     color: white;
     border-radius: 30px;
     font-size: 20px;
-}
-.forgot{
-    float: right;
-}
-.options{
-    padding: 0 10px;
-    margin: 15px 0 25px;
-
 }
 .form-footer{
     text-align: center;
