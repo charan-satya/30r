@@ -27,6 +27,7 @@ body, html {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  border-radius: 15px 50px;
 }
 
 .hero::before {
@@ -109,7 +110,7 @@ body, html {
   gap: 30px;
   padding: 60px 20px;
   align-items: center;
-  background-color: #fafafa;
+  background-color: #e3b04b;
 }
 
 .experience-text p {
@@ -141,7 +142,7 @@ body, html {
   gap: 30px;
   padding: 60px 20px;
   align-items: center;
-  background-color: #fafafa;
+  background-color: #e3b04b;
 }
 
 .export-text p {
@@ -182,4 +183,52 @@ body, html {
 .card-img-top {
   height: 300px;
   object-fit: cover;
+}
+.sanjay1{
+  background-color: #e3b04b;
+  padding-bottom: 20px;
+}
+.sanjay2 h3{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: black;
+}
+.sanjay2 p{
+  text-align: center;
+  color: #666;
+}
+.nani1{
+  color: black;
+  background-color: #666;
+  padding-bottom: 20px;
+  padding-left: 100px;
+}
+.nani2 h3{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.nani2 p{
+  text-align: center;
+  color: thistle;
+
+
+}
+nani4 button{
+  text-align: center;
+
+}
+.gopi1{
+  color: black;
+  padding-top: 20px;
+}
+.gopi2 h3{
+  text-align: center;
+  padding-bottom: 10px;
+}
+.gopi2 p{
+  text-align: center;
+  color: #666;
+
 }
