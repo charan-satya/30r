@@ -1,0 +1,185 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.charan{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+body, html {
+  height: 100%;
+  font-family: 'Playfair Display', serif;
+  color: white;
+}
+
+.hero {
+  background-image: url(https://content.jdmagicbox.com/comp/def_content/milkshake-shops/s7awoezyva-milkshake-shops-4-f0mic.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height:75%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.navbar {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.subheading {
+  color: #e3b04b;
+  letter-spacing: 1px;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.cta-button {
+  padding: 12px 24px;
+  border: 1px solid #e3b04b;
+  background: transparent;
+  color: #e3b04b;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #e3b04b;
+  color: black;
+}
+
+.address {
+  margin-top: 50px;
+  margin-right: 20px;
+  font-size: 14px;
+  color: #ddd;
+  }
+.experience-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  padding: 60px 20px;
+  align-items: center;
+  background-color: #fafafa;
+}
+
+.experience-text p {
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+.experience-image img {
+  border-radius: 10px;
+}
+
+.experience-details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.experience-details p {
+  font-size: 15px;
+  color: hsl(0, 0%, 40%);
+}
+
+
+.export-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  padding: 60px 20px;
+  align-items: center;
+  background-color: #fafafa;
+}
+
+.export-text p {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+.export-image img {
+  border-radius: 10px;
+}
+
+.export-details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.export-details p {
+  font-size: 15px;
+  color: #666;
+}
+.charan1{
+  color: black;
+  padding-bottom: 100px;
+  background-color: whitesmoke;
+}
+.charan2 h3{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+
+}
+.charan2 p{
+  text-align: center;
+  color: #666;
+}
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
