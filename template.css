@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+.body{
+  padding-bottom: 60px;
+}
 .container-fluid{
   padding-left: 30px;
   padding-right: 30px;
@@ -221,6 +224,7 @@ nani4 button{
 .gopi1{
   color: black;
   padding-top: 20px;
+  background-color: blanchedalmond;
 }
 .gopi2 h3{
   text-align: center;
@@ -229,5 +233,84 @@ nani4 button{
 .gopi2 p{
   text-align: center;
   color: #666;
+  padding-bottom: 80px;
 
+}
+.gopi3 p{
+  padding-left: 200px;
+
+}
+.gopi4{
+  flex: 1;
+  display: flex;
+  justify-content:center;
+}
+.gopi4 img{
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border-radius: 3px solid #ddd;
+}
+.testimonial-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+
+.testimonial-text {
+  flex: 1;
+  max-width: 600px;
+  padding-left: 300px;
+}
+.ccc1{
+  padding-left: 300px;
+}
+.sri1{
+  color: black;
+  padding-top: 50px;
+}
+.sri2 h3{
+  text-align: center;
+
+}
+.sri2 p{
+  text-align: center;
+}
+.sri4{
+  background-image: url(https://cms-artifacts.motionarray.com/content/motion-array/3435144/Military_Man_Speaking_At_Conference_high_resolution_preview_3435144.jpg?Expires=2060852164&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=EDZoTK~9VP3W3i8kE9O7wNy~fNP3xNS67TIStmTn9DPy0mXjRpSqigcglY0lAIZW12elps~lj5b9tDY7LO5zdiBaLJyzGWE2zdYF-xuLiBAnQHg-YmrKTzqNEPL2LA9Z4-uBzFaN5Et6ieXY-GkwBeGm9IXj9v13GdF3Hb1UW2NKbyxyQ6P57C0~ASmdggY4r1FLqRhZ1yZfFNL4POOFVjVT6hsSlnVIdum76MVlaIjyg8uWlBow1Bs-hDb6jxkgaKi6XwQ6aX8eKERUkSU1F0axpwb28yXi2yAMzjLKREqVIbvipqYNooBySwaFFHV3~VFbnmOk1FKXDQem3CM7vg__);
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-bottom: 100px;
+  background-size:cover;
+}
+.sri3 button{
+  text-align: center;
+  
+}
+.anu1{
+  color: black;
+  background-color: #666;
+  text-align: center;
+  padding-top: 59px;
+  padding-bottom: 100px;
+}
+.anu3{
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 1px solid #666;
+  cursor: pointer;
+}
+.anu3 button:hover{
+  background-color: #eee;
+}
+.ruchi1{
+  color: black;
+  padding-left: 150px;
+  padding-right: 100px;
+}
+.ruchi2{
+  text-align: center;
 }
